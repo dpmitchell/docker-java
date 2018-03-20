@@ -1,4 +1,5 @@
 FROM cherwin/docker-provider:0.1
+MAINTAINER daniel.mitchell@gmail.com
 
 #Install java
 RUN apt-get install -y software-properties-common
